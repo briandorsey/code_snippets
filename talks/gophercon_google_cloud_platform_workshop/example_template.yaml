@@ -1,0 +1,10 @@
+name: template-a
+modules:
+  numReplicas: 4
+  replicaPoolParams:
+    machineType: n1-standard-1
+    zone: us-central2-a
+    disksToCreate:
+    ...
+    networkInterfaces:
+    ...
